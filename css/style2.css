@@ -16,49 +16,207 @@
     border-left: 10px;
     height: 50px;
     margin-top: 5px;
-    margin-bottom: 10px;
-}
+    margin-bottom: 10px;}
     .head .for h1{color: white;
     margin-top: 20px;
        padding: 0px;
-    margin-top: 5px;}
+}
     
     .head .call{background-color: #9CDFFA;
         text-align: center;
          width:170px;
          margin-left: 250px;
-        padding: 10px;
-    }
+        padding: 10px; }
     .head .call h4{margin-bottom: 20px; margin-top: 10px;}
-    
-      .head  .call h1{margin:10px;
+    .head  .call h1{margin:10px;
     color: solid black;}
 
-    .sell{background-color: #E9E0E0;
+    .sell{background-color: #FDF5F5;
          height: 50px; 
          display:flex;}
+
          .sell .image{}
     .sell .image img {width: 20px;
-         height: 20px; margin-left: 50px;
-          margin-top: 15px;}
+    height: 20px; margin-left: 50px; margin-top: 15px;}
+    .sell .image{flex:1 1 1 30%; width: 180px; display: flex;}
+    .sell .image h4{color: rgb(243, 162, 22);
+     margin-top: 15px; margin-left: 4px;}
 
-         .sell .sell2 h4{color: rgb(243, 162, 22);
-        margin-top: 15px; margin-right: 0px;}
-
-        .sell .sell2{margin-right: 0px;}
-
-        .sell .logo{}
-
-        .sell .logo img{width: 40px;
+        
+     
+       .sell .logo{ flex:1 1 1 50%;}
+       .sell .logo img{width: 40px;
         height: 15px; 
-    margin-top: 15px; 
-margin-right: 20px;}
+        margin-top: 25px; 
+        margin-right: 10px;
+        margin-left: 250px;
+    }
 
-    .sell .pay img{width: 30px; height: 30px;
-    }
-    .sell .pay h4{color: #DACACA;
-    }
-    .sell .food {flex:1 1 30%;}
-    .sell .food img{width:30px; height: 30px;}
+     .sell .sell2{flex:1 1 1 50%; width:80px;}
+     .sell .sell2 a {text-decoration: none; color: #AFA9A9;}
+     .sell .sell2 img{width: 30px; height: 30px; margin-top: 10px;}
+
+    .sell .pay img{width: 30px; height: 30px;}
+    .sell .pay h4{color: #DACACA;}
+
+    .sell .food {flex:1 1 1 50%; width:30px; display: flex; }
+    .sell .food a {text-decoration: none; color: #AFA9A9; margin-top: 25px;}
+    .sell .food img{width:30px; height: 30px; margin-top: 12px;}
+
+    .sell .logistic{flex: 1 1 1 50%; margin-left: 10px;}
+    .sell .logistic a{text-decoration: none; color: #AFA9A9;}
+    .sell .logistic img{height: 30px; width: 30px; margin-top: 10px;}
+
+    .sell .party a {text-decoration: none; color: #AFA9A9; margin-top: 30px;}
+    .sell .party{flex:1 1 1 50%; margin-left:50px; margin-top: 25px;}
+
+    .three{display:flex; }
+    .three .logo2{flex:1 1 1 1 40%;}
+    .three .logo2 img{width: 90px; height: 30px; margin-top: 25px;margin-left: 
+    60px;}
+
+    .three .form{display: flex; margin-top: 20px; flex:1 1 1 70%; height: 40px; margin-left: 60px; }
+    .three .form img{width: 20px; height: 20px;}
+    .three .form input{background: url( "image/search.png" ) top left no-repeat; height: 35px; width: 350px;border-radius: 3px;}
+    .three .form button{background-color: rgb(255, 165, 0); color: white;
+     border:solid rgb(255, 165, 0);
+    border-radius:5px; margin-left:5px;}
     
- 
+     .three .account{display: flex; margin: 20px; flex:1 1 1 1 30%;}
+    .three .account img{width: 40px; height: 30px; margin-right: 10px; }
+     .three .account a{text-decoration:none; font-size: 20px; color:black; font-family: sans-serif;margin-top: 6px;}
+
+    .three .help{display: flex; margin: 20px; margin-left: 20px; flex:1 1 1 1 20%; margin-top: 25px;}
+    .three .help img{width: 40px; height: 20px;margin-right: 10px;}
+    .three .help a{text-decoration:none;font-size: 20px; color:black; font-family: sans-serif; }
+
+    .three .cart{display: flex; margin: 20px; flex:1 1 1 1 20%; margin-top: 25px;}
+    .three .cart img{width: 30px; height: 20px;margin-right: 10px;}
+    .three .cart a{ text-decoration: none; font-size: 20px; color:black; font-family:sans-serif;}
+     
+    .www{background-color:#FDF5F5; display: flex;}
+   .www .divs{background-color:#FDF5F5; display: grid; }
+   .www .divs {background-color: white; width: 250px; height: 680px; margin-left: 40px;
+      margin-top: 15px;   border-radius: 10px; border:solid #F8F0F0; }
+
+      .divs .properties{display: flex;}
+         .divs .properties img{width: 20px; height: 20px; margin: 10px;}
+         .divs .properties a{margin: 10px; text-decoration: none;}
+
+         
+         .divs .health{display: flex;}
+            .divs .health img{width: 20px; height: 20px; margin: 10px;}
+            .divs .health a{margin: 10px; text-decoration: none;}
+
+             .divs .home{grid-gap: 3px; display: flex;}
+            .divs .home img{width: 20px; height: 20px; margin: 10px;}
+            .divs .home a{margin: 10px; text-decoration: none;}
+            
+            .divs .phone{display: flex;}
+            .divs .phone img{width: 20px; height: 20px; margin: 10px;}
+            .divs .phone a{margin: 10px; text-decoration: none;}
+             
+            .divs .comp{display: flex;}
+            .divs .comp img{width: 20px; height: 20px; margin: 10px;}
+            .divs .comp a{margin: 10px; text-decoration: none;}
+             
+            .divs .Electronics{display: flex;}
+            .divs .Electronics img{width: 20px; height: 20px; margin: 10px;}
+            .divs .Electronics a{margin: 10px; text-decoration: none;}
+             
+            .divs .Fashion{display: flex;}
+            .divs .Fashion img{width: 20px; height: 20px; margin: 10px;}
+            .divs .Fashion a{margin: 10px; text-decoration: none;}
+             
+            .divs .Baby{display: flex;}
+            .divs .Baby img{width: 20px; height: 20px; margin: 10px;}
+            .divs .Baby a{margin: 10px; text-decoration: none;}
+             
+            .divs .Gaming{display: flex;}
+            .divs .Gaming img{width: 20px; height: 20px; margin: 10px;}
+            .divs .Gaming a{margin: 10px; text-decoration: none;}
+             
+            .divs .sport{display:flex;}
+            .divs .sport img{width: 20px; height: 20px; margin: 10px;}
+            .divs .sport a{margin: 10px; text-decoration: none;}
+             
+            .divs .mobile{display:flex;}
+            .divs .mobile img{width: 20px; height: 20px; margin: 10px;}
+            .divs .mobile a{margin: 10px; text-decoration: none;}
+             
+            .divs .others{display: flex;}
+            .divs .others img{width: 20px; height: 20px; margin: 10px;}
+            .divs .others a{margin: 10px; text-decoration: none;}
+
+
+      .www .advrt{margin: 20px;  }
+
+      .www .side .advrt2 { margin-top: 20px;  }
+
+      .www .side .advrt3 { margin-top: 20px;  }
+      .www .side .advrt3 img { margin-top: 8px; width: 400px; height: 270px; }
+
+      .pic{background-color:#DDD8D8;}
+     .pic img{width: 95%; height: 300px; margin: 10px; margin-left: 40px;} 
+     .home2{background-color:#DDD8D8; height: 40px; width: 100%;
+         margin-top: 0px; display: flex;}
+     .home2 h3{margin:10px;}
+      .home2 h4{color: #BEB8B8; margin: 10px;}
+
+      .limited{background-color: #CFCCC7; width: 100%; height: 190px;}
+      limited h4{color: black;}
+
+       .grocery{background-color:#DDD8D8;  display: flex;}
+         .two{background-color: white; width: 100%; border:solid #FCF3F3; text-align: center;
+        margin-left:1px; }
+        .grocery .two h3{color: red; margin-left: 50px;}
+      .grocery .gro img{ margin: 20px; border-radius:5px;}
+
+      .gro h3{margin-left: 60px; }
+      .grocery .baby img{margin: 20px;  border-radius:5px;}
+      .grocery .baby h3{color: red; margin-left: 50px;}
+
+      .gro h3{margin-left: 60px; }
+      .grocery .phonee img{margin: 20px; width: 230px; height: 230px;
+         border-radius:5px; }
+      .grocery .phonee h3{color: red; margin-left: 50px;}
+
+      .gro h3{margin-left: 60px; }
+      .grocery .shoe img{margin: 20px;  border-radius:5px;}
+      .grocery .shoe h3{color: red; margin-left: 50px;}
+
+      .gro h3{margin-left: 60px; }
+      .grocery .shoe2 img{margin: 20px;  border-radius:5px; width: 230px; height: 230px;}
+      .grocery .shoe2 h3{color: red; margin-left: 50px;}
+
+      .beauty{background-color: white; width: 100%; border:solid #FCF3F3; text-align: center;
+        margin-left:3px; }
+        .grocery1{background-color:#DDD8D8;  display: flex;}
+        .grocery .gro1 h3{color: #131212; margin-left: 50px;}
+        .grocery1 .gro1 img{ margin: 20px; border-radius:5px; width: 300px;}
+
+        .grocery .gro2 h3{color: #131212; margin-left: 50px;}
+        .grocery1 .gro2 img{ margin: 20px; border-radius:5px; width: 300px;}
+
+        .grocery .gro3 h3{color: #131212; margin-left: 50px;}
+        .grocery1 .gro3 img{ margin: 20px; border-radius:5px; width: 300px;}
+
+
+        .grocery .gro4 h3{color: #131212; margin-left: 50px;}
+        .grocery1 .gro4 img{ margin: 20px; border-radius:5px; width: 300px;}
+
+        .appliance {background-color:#DDD8D8;  display: flex;}        
+        .appliance .app1 h3{color: #131212; margin-left: 50px;}
+        .appliance .app1 img{ margin: 20px; border-radius:5px; width: 300px;}
+
+        .appliance .app2 h3{color: #131212; margin-left: 50px;}
+        .appliance .app2 img{ margin: 20px; border-radius:5px; width: 300px;}
+
+        .appliance .app3 h3{color: #131212; margin-left: 50px;}
+        .appliance .app3 img{ margin: 20px; border-radius:5px; width: 300px;}
+
+        .appliance .app4 h3{color: #131212; margin-left: 50px;}
+        .appliance .app4 img{ margin: 20px; border-radius:5px; width: 300px;}
+
+   
+
